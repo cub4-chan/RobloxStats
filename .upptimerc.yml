@@ -5,6 +5,7 @@ repo: RobloxStats # The name of this repository
 sites:
   - name: Webhook Test
     url: https://test.invalid
+    maxResponseTime: 1000
     
   - name: Roblox Site (Under Aritifical Testing)
     url: https://www.roblox.com
