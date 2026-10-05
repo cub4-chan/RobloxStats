@@ -120,7 +120,8 @@ sites:
     maxResponseTime: 1000
 
 workflowSchedule:
-  uptime: "*/30 * * * *"
+  uptime: "*/5 * * * *"
+  responseTime: "0 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
